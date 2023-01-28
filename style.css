@@ -1,0 +1,492 @@
+
+*
+{
+    margin: 0;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.main-container
+{
+    justify-content: center;
+    display: block;
+    width: 100%;
+   
+    box-sizing: border-box;
+    object-fit: cover;
+    background-color: white;
+}
+
+.image-container img
+{
+    width: 100%;
+    justify-content: space-around;
+    object-fit: contain;
+    
+}
+
+.gif
+{
+    width: 100%;
+    display: flex;
+
+   
+    
+}
+
+.gif-1
+{
+    
+    width: 50%;
+ 
+  
+    
+    padding-left: 10px;
+      
+}
+
+.gif-2
+{
+    
+    width: 50%;
+    justify-content: end;
+   display: block;
+    
+   
+}
+.gif-1 img
+{
+    width: 99%;
+    margin-bottom: 13px;
+    
+}
+
+.gif-2 img
+{
+   width: 99%;
+   margin-bottom: 10px;  
+      
+}
+
+
+
+
+.Latest-deal{
+    width: 70%;
+    display: block;
+    margin: 0px 260px;
+    
+}
+
+.Latest-deal h1
+{
+    font-size: 60px;
+    color: #00557A;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.col-image
+{
+    
+    width: 100%;
+    margin-top: 50px;
+ 
+
+}
+.image-selection-1
+{
+   
+   justify-content: space-between;
+    margin-bottom: 20px;
+    display: flex;
+}
+.image-selection-1 img
+{
+    width: 49%;
+}
+
+
+.All-deals
+{
+    
+    margin: 10px 260px;
+    width: 80%;
+   
+   
+}
+
+.All-deals h1
+{
+    font-size: 60px;
+    color: #00557A;
+    margin-bottom: 50px;
+}
+
+
+.All-deals h3
+{
+    font-size: 60px;
+    color: #00557A;
+    margin-bottom: 50px;
+}
+
+ .main-menu
+    {
+        display: flex;
+        
+        padding: 20px 0px;
+        width: 89%;
+        background-color: #B8DAEF;
+    }
+
+    select{
+        color: grey;
+        width:370px;
+        height: 50px;
+        margin-left: 50px;
+        
+       
+        
+    }
+
+    
+ 
+    .date-time input{
+        
+    
+        
+        color: grey;
+        width:470px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    button{
+    
+    
+        color:white;
+        background-color: #81bb63;
+        width:370px;
+        height:50px;
+        border: none;
+        margin-left: 50px;
+    }
+
+
+.crew-image
+{
+
+
+     display: flex; 
+     justify-content:center;
+      justify-content: space-evenly;
+       width: 89%;
+
+}
+
+
+.crew-1 img
+{
+    width: 97%;
+   margin-right: 140px;
+}
+
+.crew-2 img
+{
+    width: 100%;
+    height: 335px;
+}
+
+.crew-1 h2{
+    color: #69b342;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.crew-2 h2{
+    color: #69b342;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.crew-1 h5{
+    color: #01557a;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.crew-2 h5{
+    color: #01557a;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.Details
+{
+   
+    margin: 10px 260px;
+    width: 80%;
+    margin-top: 70px;
+   
+}
+
+.D-col
+{
+    width: 90%;
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.D-col h3{
+    color: #69b342;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    color: #707070;
+}
+
+.logo
+{
+   width: 100%;
+}
+
+@media screen and (max-width:320px){
+
+    body
+    {
+        padding: 5px 20px;
+    }
+    
+    .main-container
+    {
+        width: 100%;
+    }
+    .main-container img
+    {
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+        object-position: top left;
+    }
+
+    .gif
+    {
+        width: 100%;
+        
+       flex-direction: column;
+
+    }
+
+    .gif img{
+        width:100%;
+        height: 50px;
+        
+    }
+
+    .gif-1
+    {
+        width: 100%;
+        
+        margin-left: -5px;
+        
+
+    }
+
+    .gif-2
+    {
+        width: 100%;
+        
+        
+
+    }
+
+    .Latest-deal{
+        width: 100%;
+        margin:40px 0px;
+        padding: 0;
+
+        
+       
+    }
+    
+    .Latest-deal h1
+    {
+        font-size: 25px;
+        color: #00557A;
+        text-align: center;
+        
+    }
+    
+
+
+    .col-image
+{
+    
+    width: 100%;
+    margin-top: 5px;
+ 
+
+}
+
+
+.image-selection-1
+{
+   width: 100%;
+ margin-left: -0px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.image-selection-1 img
+{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.crew-image
+{
+    width: 100%;    
+    margin-left: -260px;
+    flex-direction: column;
+}
+
+.All-deals h1
+{
+   margin-left: -250px ;
+}
+
+
+.All-deals h3
+{
+   margin-left: -250px ;
+}
+
+
+.crew-1 img
+{
+    width: 100%;
+  
+}
+
+.crew-2 img
+{
+    width: 100%;
+  
+}
+
+
+.All-deals
+{
+    
+
+    width: 100%;
+    
+  
+}
+
+.All-deals h1
+{
+    
+
+    width: 100%;
+    text-align:start;
+  font-size: 25px;
+}
+.All-deals h3
+{
+    
+    color: #00557A;
+    width: 100%;
+    text-align: start;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.Details{
+
+    margin-left: -0px;
+}
+.D-col
+{
+    width: 100%;
+    flex-direction: column;    
+    text-align: start;
+    padding-left: 10px;
+   
+}
+
+.D-col h3{
+    color: #69b342;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.D-1
+{
+    margin-bottom:20px;
+}
+
+.Lego img{
+
+    width: 19px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+.main-menu
+    {
+        margin-left: -229px;  
+        border: 2px  #B8DAEF;
+        width: 80%;
+        height: 150px;
+        background-color: #B8DAEF;
+        flex-direction: column;
+    }
+
+    select{
+        
+        height: 35px;
+        margin-bottom: 5px;
+        width: 60%;
+          }
+
+    
+ 
+    .date-time input{
+        
+    
+        
+        height: 35px;
+        margin-left: 50px;
+        width: 60%;
+        
+       
+    }
+
+    button{
+    
+        margin-top: 10px;
+        height: 30px;
+        width: 50%;
+        margin-left:65px;       
+        
+    }
+
+}
